@@ -1,0 +1,3 @@
+[submodule "@junyeol/prettier-config"]
+	path = packages/@junyeol/prettier-config
+	url = https://github.com/danjun211/prettier-config.git
