@@ -6,6 +6,7 @@
   "scripts": {
     "start": "pnpm --filter '@apps/*' start",
     "dev": "pnpm --filter '@apps/*' dev",
+    "format": "prettier . --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "workspaces": [
