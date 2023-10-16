@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "node --loader tsx utils/runTests.ts",
-    "test:watch": "glob -c \"node --loader tsx --test\" \"**/*.test.ts\"",
+    "test:watch": "glob -c \"node --loader tsx --test --watch\" \"**/*.test.ts\"",
     "start": "fastify start -l info app.js",
     "dev": "fastify start -w -l info -P app.js"
   },
@@ -20,6 +20,7 @@
     "@fastify/autoload": "^5.0.0",
     "@fastify/sensible": "^5.0.0",
     "@notionhq/client": "^2.2.13",
+    "dotenv": "^16.3.1",
     "fastify": "^4.0.0",
     "fastify-cli": "^5.7.1",
     "fastify-plugin": "^4.0.0"
